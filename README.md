@@ -1,5 +1,5 @@
 # crw-demo
-Code Ready Workspaces Demo
+Code Ready Workspaces Demo, using the sample app https://github.com/mdiwing/rest-http-example
 
 # Load this workspace using the below Factory URL:
 
