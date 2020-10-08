@@ -2,7 +2,7 @@ apiVersion: 1.0.0
 metadata:
   name: spring-boot-http-booster
 projects:
-  - name: rest-http-example
+  - name: spring-boot-http-booster
     source:
       location: 'https://github.com/mdiwing/rest-http-example'
       type: git
