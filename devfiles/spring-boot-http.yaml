@@ -3,10 +3,10 @@ metadata:
   name: spring-boot-http-booster
   type: workspace
 projects:
-  - name: spring-boot-http-booster
+  - name: rest-http-example
     git:
       remotes:
-        origin: https://github.com/snowdrop/spring-boot-http-booster
+        origin: https://github.com/mdiwing/rest-http-example
       checkoutFrom:
         revision: master
 components:
