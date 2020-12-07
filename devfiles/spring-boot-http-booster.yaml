@@ -4,7 +4,7 @@ metadata:
 projects:
   - name: spring-boot-http-booster
     source:
-      location: 'https://github.com/mdiwing/crw-demo/'
+      location: 'https://github.com/mdiwing/crw-demo.git'
       type: git
 components:
   - id: redhat/java8/latest
