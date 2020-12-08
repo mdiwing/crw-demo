@@ -1,11 +1,12 @@
 apiVersion: 1.0.0
 metadata:
-  name: developer-workspace
+  name: sb-developer-workspace
 projects:
   - name: spring-boot-http-booster
     source:
       location: 'https://github.com/mdiwing/crw-demo.git'
       type: git
+      branch: main
 components:
   - id: redhat/java8/latest
     type: chePlugin
