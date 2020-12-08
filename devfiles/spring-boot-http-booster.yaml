@@ -1,9 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-  name: sb-developer-workspace-
-attributes:
-  asyncPersist: 'true'
-  persistVolumes: 'false'
+  name: sb-developer-workspace
 projects:
   - name: spring-boot-http-booster
     source:
@@ -31,8 +28,6 @@ components:
         name: JAVA_OPTS
       - value: $(JAVA_OPTS)
         name: MAVEN_OPTS
-  - id: redhat/vscode-openshift-connector/latest
-    type: chePlugin
 commands:
   - name: 1. Build
     actions:
