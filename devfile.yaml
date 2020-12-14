@@ -4,9 +4,8 @@ metadata:
 projects:
   - name: crw-demo
     source:
-      location: 'https://github.com/mdiwing/crw-demo'
+      location: 'https://github.com/mdiwing/crw-demo.git'
       type: git
-      branch: main
 components:
   - id: redhat/java8/latest
     type: chePlugin
