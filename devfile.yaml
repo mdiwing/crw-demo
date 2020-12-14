@@ -7,7 +7,7 @@ projects:
       location: 'https://github.com/mdiwing/crw-demo.git'
       type: git
 components:
-  - id: redhat/java8/latest
+  - id: redhat/java11/latest
     type: chePlugin
   - id: redhat/dependency-analytics/latest
     type: chePlugin
@@ -15,13 +15,13 @@ components:
     endpoints:
       - name: 8080-tcp
         port: 8080
-    memoryLimit: 768Mi
+    memoryLimit: 1024Mi
     type: dockerimage
     volumes:
       - name: m2
         containerPath: /home/jboss/.m2
     alias: maven
-    image: 'registry.redhat.io/codeready-workspaces/plugin-java8-rhel8@sha256:5b2df65e7ec4676a43b763b431744790a89acd5c6d197316b694693b58c19770'
+    image: 'registry.redhat.io/codeready-workspaces/plugin-java11-rhel8'
     env:
       - value: '-XX:MaxRAMPercentage=50.0 -XX:+UseParallelGC -XX:MinHeapFreeRatio=10 -XX:MaxHeapFreeRatio=20 -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xms20m -Djava.security.egd=file:/dev/./urandom -Duser.home=/home/jboss'
         name: JAVA_OPTS
