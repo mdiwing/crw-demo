@@ -4,7 +4,7 @@ metadata:
 projects:
   - name: crw-demo
     source:
-      location: 'https://github.com/mdiwing/crw-demo.git'
+      location: 'https://github.com/mdiwing/crw-demo'
       type: git
 components:
   - id: redhat/java8/latest
