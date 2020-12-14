@@ -6,6 +6,7 @@ projects:
     source:
       location: 'https://github.com/mdiwing/crw-demo.git'
       type: git
+      branch: main
 components:
   - id: redhat/java8/latest
     type: chePlugin
