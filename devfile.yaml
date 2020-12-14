@@ -1,6 +1,12 @@
 apiVersion: 1.0.0
 metadata:
-  name: sb-developer-workspace
+  generateName: crw-demo-workspace-
+projects:
+  - name: crw-demo-project
+    source:
+      type: git
+      location: "https://github.com/mdiwing/crw-demo.git"
+      branch: main
 components:
   - id: redhat/java8/latest
     type: chePlugin
