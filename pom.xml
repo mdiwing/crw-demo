@@ -227,7 +227,7 @@
                   <all>
                     <property>
                       <name>app.kubernetes.io/vcs-uri</name>
-                      <value>git@github.com:snowdrop/rest-http-example.git</value>
+                      <value>git@github.com:mdiwing/crw-demo.git</value>
                     </property>
                   </all>
                 </annotations>
